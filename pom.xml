@@ -5,7 +5,7 @@
     <groupId>ch.mimacom.log</groupId>
     <artifactId>hawtio-logback</artifactId>
     <packaging>pom</packaging>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <properties>
         <insight-log-core-version>1.2.0.Beta4</insight-log-core-version>
@@ -24,7 +24,7 @@
         <connection>scm:git:git@github.com:5e/hawtio-logback.git</connection>
         <developerConnection>scm:git:git@github.com:5e/hawtio-logback.git</developerConnection>
         <url>https://github.com/5e/hawtio-logback</url>
-      <tag>hawtio-logback-1.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <repositories>
