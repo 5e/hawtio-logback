@@ -53,6 +53,19 @@
         </pluginRepository>
     </pluginRepositories>
 
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Nexus Releases Repo</name>
+            <url>http://nexus.fifthelement.fi/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Nexus Snapshots Repo</name>
+            <url>http://nexus.fifthelement.fi/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
